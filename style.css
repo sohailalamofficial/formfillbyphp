@@ -1,0 +1,74 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    max-width: 80%;
+    padding: 34px;
+    margin: auto;
+}
+.container h1,p
+{
+    text-align: center;
+}
+
+h1
+{
+    font-family: 'Sriracha', cursive;
+}
+
+p
+{
+    font-size: 19px;
+}
+
+input,textarea
+{
+    display: block;
+    width: 80%;
+    margin: 11px auto;
+    font-size: 16px;
+    padding: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* code for button */
+
+.btn
+{
+    color: white;
+    background-color: purple;
+    padding: 8px 12px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.bg
+{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .65;
+}
+
+.submitmsg
+{
+    font-size: 25px;
+    color: green;
+    font-family: 'Sriracha', cursive;
+}
